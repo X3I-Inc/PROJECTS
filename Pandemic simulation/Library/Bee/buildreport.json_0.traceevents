@@ -1,0 +1,480 @@
+{ "pid": 25572, "tid": 21474836480, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410551026, "dur": 16411, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410567438, "dur": 625532, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410567453, "dur": 33, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410567490, "dur": 15304, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410582804, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410582808, "dur": 74, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410582886, "dur": 522, "ph": "X", "name": "ProcessMessages 52", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410583412, "dur": 2124, "ph": "X", "name": "ReadAsync 52", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410585546, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410585550, "dur": 62, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410585615, "dur": 847, "ph": "X", "name": "ProcessMessages 451", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410586468, "dur": 48, "ph": "X", "name": "ReadAsync 451", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410586518, "dur": 261, "ph": "X", "name": "ProcessMessages 16", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410586783, "dur": 2945, "ph": "X", "name": "ReadAsync 16", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410589734, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410589736, "dur": 39, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410589777, "dur": 590, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295410590371, "dur": 593482, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295411183862, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295411183866, "dur": 63, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295411183935, "dur": 3426, "ph": "X", "name": "ProcessMessages 11523", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295411187368, "dur": 84, "ph": "X", "name": "ReadAsync 11523", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295411187456, "dur": 2, "ph": "X", "name": "ProcessMessages 41", "args": {} },
+{ "pid": 25572, "tid": 21474836480, "ts": 1729295411187459, "dur": 5505, "ph": "X", "name": "ReadAsync 41", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411217236, "dur": 2325, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 25572, "tid": 17179869184, "ph": "M", "name": "thread_name", "args": { "name": "WaitForBuildProgramInputDataBeingWrittenAndSendDagReadyMessageAsync" } },
+{ "pid": 25572, "tid": 17179869184, "ts": 1729295410550992, "dur": 4, "ph": "X", "name": "await writeBuildProgramInputDataTask", "args": {} },
+{ "pid": 25572, "tid": 17179869184, "ts": 1729295410550996, "dur": 16439, "ph": "X", "name": "WritePipe.WaitConnectionAsync", "args": {} },
+{ "pid": 25572, "tid": 17179869184, "ts": 1729295410567436, "dur": 35, "ph": "X", "name": "WriteDagReadyMessage", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411219567, "dur": 9, "ph": "X", "name": "WaitForBuildProgramInputDataBeingWrittenAndSendDagReadyMessageAsync", "args": {} },
+{ "pid": 25572, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 25572, "tid": 1, "ts": 1729295410220907, "dur": 7089, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 25572, "tid": 1, "ts": 1729295410228002, "dur": 73152, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 25572, "tid": 1, "ts": 1729295410301162, "dur": 5468, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411219578, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 25572, "tid": 12884901888, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 25572, "tid": 12884901888, "ts": 1729295410218204, "dur": 10885, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 25572, "tid": 12884901888, "ts": 1729295410229091, "dur": 9990, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 25572, "tid": 12884901888, "ts": 1729295410230568, "dur": 5714, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 25572, "tid": 12884901888, "ts": 1729295410236295, "dur": 2106, "ph": "X", "name": "ProcessMessages 29", "args": {} },
+{ "pid": 25572, "tid": 12884901888, "ts": 1729295410238407, "dur": 151, "ph": "X", "name": "ReadAsync 29", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411219589, "dur": 102, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 25572, "tid": 8589934592, "ph": "M", "name": "thread_name", "args": { "name": "WaitForBuildProgramInputDataBeingWrittenAndSendDagReadyMessageAsync" } },
+{ "pid": 25572, "tid": 8589934592, "ts": 1729295410213975, "dur": 92751, "ph": "X", "name": "await writeBuildProgramInputDataTask", "args": {} },
+{ "pid": 25572, "tid": 8589934592, "ts": 1729295410306729, "dur": 6, "ph": "X", "name": "WritePipe.WaitConnectionAsync", "args": {} },
+{ "pid": 25572, "tid": 8589934592, "ts": 1729295410306736, "dur": 1589, "ph": "X", "name": "WriteDagReadyMessage", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411219693, "dur": 6, "ph": "X", "name": "WaitForBuildProgramInputDataBeingWrittenAndSendDagReadyMessageAsync", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295410182824, "dur": 126419, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295410190185, "dur": 12440, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295410309366, "dur": 237597, "ph": "X", "name": "await ExecuteBuildProgram", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295410547165, "dur": 645857, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295410547266, "dur": 3694, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295411193035, "dur": 7429, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295411197609, "dur": 49, "ph": "X", "name": "await ScriptUpdaters", "args": {} },
+{ "pid": 25572, "tid": 4294967296, "ts": 1729295411200477, "dur": 27, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411219703, "dur": 15, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1729295410568182, "dur":17308, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295410585502, "dur":82, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295410585609, "dur":569, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295410586214, "dur":67, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295410586282, "dur":599461, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295411185744, "dur":104, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295411185849, "dur":260, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295411186115, "dur":145, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295411186380, "dur":2164, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1729295410586746, "dur":598977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295410586624, "dur":643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295410587268, "dur":1890, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295410589159, "dur":596574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295410586717, "dur":599014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295410586732, "dur":598997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295410586656, "dur":2510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295410589167, "dur":596558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295410586622, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe" }}
+,{ "pid":12345, "tid":6, "ts":1729295410586697, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\Tools\\BuildPlayerDataGenerator\\BuildPlayerDataGenerator.exe" }}
+,{ "pid":12345, "tid":6, "ts":1729295410586788, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410587012, "dur":496, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410587509, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410587780, "dur":489, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410588270, "dur":371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410588642, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410588766, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410588966, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\ScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295410586607, "dur":2730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json" }}
+,{ "pid":12345, "tid":6, "ts":1729295410590571, "dur":594521, "ph":"X", "name": "BuildPlayerDataGenerator",  "args": { "detail":"Library/BuildPlayerData/Editor/TypeDb-All.json" }}
+,{ "pid":12345, "tid":7, "ts":1729295410586835, "dur":598916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295410586783, "dur":598966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295410586930, "dur":598797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295410586977, "dur":598780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295410587089, "dur":598672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295410587136, "dur":598609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295411192467, "dur":719, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1729295410396215, "dur": 131588, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729295410397614, "dur": 55302, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729295410505007, "dur": 6953, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729295410511964, "dur": 15832, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729295410513207, "dur": 13734, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729295410536125, "dur": 1572, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1729295410535530, "dur": 2440, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1729295335652325, "dur":1937, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335654273, "dur":131, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335654445, "dur":434, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335657944, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1729295335654909, "dur":3635, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335658546, "dur":330731, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335989278, "dur":315, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335989597, "dur":178, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335989948, "dur":2487, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1729295335654987, "dur":3572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729295335658562, "dur":7211, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729295335665803, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729295335665916, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729295335666070, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729295335666150, "dur":924, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1729295335667075, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1729295335667360, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335667496, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335667688, "dur":331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335668020, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335668523, "dur":522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335669046, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335669193, "dur":350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\emilr\\Pandemic simulation\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1729295335665915, "dur":3758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729295335669981, "dur":78, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1729295335670590, "dur":309007, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729295335987493, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729295335987492, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1729295335987723, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1729295335655032, "dur":3532, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335658566, "dur":1115, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335659682, "dur":6124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335665810, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1729295335665999, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335680062, "dur":3697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1729295335683835, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335683957, "dur":4933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335688963, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335689076, "dur":4158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335693335, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335699245, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335693598, "dur":5931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335699638, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335700025, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335704085, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335704190, "dur":6205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335710472, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335719226, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335710653, "dur":8661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335719408, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1729295335719793, "dur":53074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1729295335773053, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1729295335777348, "dur":211926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335655068, "dur":3501, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335658572, "dur":1244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335659817, "dur":5993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335665826, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1729295335665813, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1729295335665995, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335686838, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335684255, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1729295335687056, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335687169, "dur":6927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335694186, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335694276, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335698033, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335698145, "dur":133, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335698283, "dur":4379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335702762, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335702896, "dur":4879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335707854, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335707964, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335713375, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335713517, "dur":8010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335721619, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1729295335721786, "dur":61777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1729295335783705, "dur":205594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335655126, "dur":3448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335658579, "dur":1301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335659881, "dur":5903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335665820, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1729295335665807, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1729295335665974, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335683858, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1729295335685564, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335685831, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335689888, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335690010, "dur":5506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335695603, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335695961, "dur":6347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335702374, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335702640, "dur":6693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335709622, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335709749, "dur":7471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335717314, "dur":666, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335718019, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335723307, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335723455, "dur":6574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335730111, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335730431, "dur":4964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335735483, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335735605, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335740577, "dur":1931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335742551, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335746492, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335746582, "dur":1363, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1729295335747954, "dur":35617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1729295335783700, "dur":205571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335655168, "dur":3418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335658592, "dur":1240, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335659833, "dur":5965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335665805, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1729295335665951, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335681672, "dur":3119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1729295335684902, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335684997, "dur":3606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335688671, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335688787, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335692085, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335692331, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335697320, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335697426, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335701093, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335701179, "dur":3977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335705236, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335705760, "dur":21005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335726847, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335732586, "dur":395, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335727219, "dur":5779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335733081, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335733525, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335737291, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335737440, "dur":6334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335743859, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335743999, "dur":7948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335752115, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335752112, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335752271, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1729295335752370, "dur":21635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1729295335774109, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1729295335777854, "dur":211446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335655219, "dur":3380, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335658605, "dur":1219, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335659824, "dur":5979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335665817, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1729295335665805, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1729295335665954, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335681060, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1729295335684323, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335684417, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335688541, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335688646, "dur":7091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335695872, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335696146, "dur":4575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335700885, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335701249, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335709162, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335709400, "dur":7854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335717348, "dur":634, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335718015, "dur":7851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335725955, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335726061, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335731072, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335731163, "dur":5022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335736268, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335736376, "dur":6712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335743181, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335743389, "dur":5327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335748821, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1729295335749135, "dur":34443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1729295335783680, "dur":205589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335655263, "dur":3351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335658620, "dur":1137, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335659757, "dur":6054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335665813, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1729295335665965, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335679408, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1729295335682066, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335686705, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335686907, "dur":3921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335690902, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335691068, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335696613, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335696797, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335705461, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335697072, "dur":8512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335705670, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335705902, "dur":6415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335712404, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335712476, "dur":187, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335712668, "dur":8438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335721184, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335721297, "dur":7152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335728551, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335728652, "dur":5881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335734617, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335734746, "dur":9912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335745445, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1729295335745650, "dur":50267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1729295335796009, "dur":193258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335655305, "dur":3324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335658635, "dur":1106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335659741, "dur":6072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335665814, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1729295335666063, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335690530, "dur":5369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1729295335696687, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335696858, "dur":9826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729295335706760, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335712378, "dur":275, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335706883, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729295335712775, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335712971, "dur":38911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729295335751971, "dur":13600, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335785110, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1729295335766424, "dur":18775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1729295335785837, "dur":203444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335655344, "dur":3309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335658658, "dur":352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335659011, "dur":6769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335665796, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335665922, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335666842, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1729295335669280, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1729295335670340, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1729295335671485, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1729295335671619, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1729295335674264, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1729295335674261, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1729295335674563, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1729295335675933, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335675931, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335676355, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335677859, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1729295335678387, "dur":4041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1729295335682557, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335682844, "dur":4260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335690251, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335690608, "dur":9203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335700043, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335700203, "dur":6433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335706758, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335706929, "dur":7468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335714563, "dur":2083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335716750, "dur":50759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1729295335767600, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335767681, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1729295335780052, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1729295335769689, "dur":10498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1729295335780288, "dur":208984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335655383, "dur":3280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335658664, "dur":7122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335665788, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1729295335665928, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335672069, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1729295335673252, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729295335673249, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729295335673697, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1729295335675203, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1729295335675373, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1729295335677160, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335677157, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335677501, "dur":6245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335683824, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335683926, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335687417, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335687550, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335687611, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335691071, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335691226, "dur":4179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335695478, "dur":461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335695958, "dur":4322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335700350, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335700468, "dur":9310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335709852, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335709849, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335709904, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335710141, "dur":21228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335731490, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335731737, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335736900, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1729295335737007, "dur":30057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1729295335767180, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1729295335770084, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1729295335772991, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1729295335775995, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1729295335777884, "dur":211414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335655428, "dur":3246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335658675, "dur":7144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335665832, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1729295335665821, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1729295335666012, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335680215, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1729295335682726, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335682950, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335686395, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335686633, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335690414, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335690520, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335695698, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335699617, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335699803, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335702519, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335702644, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335705200, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335705764, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335711708, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335711822, "dur":8661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335720569, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335720733, "dur":6745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335727586, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335727702, "dur":4651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335732506, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335732640, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335737950, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335738076, "dur":6991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335745152, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1729295335745436, "dur":20207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1729295335766595, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1729295335769526, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1729295335771326, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1729295335773401, "dur":5683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1729295335779153, "dur":210111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335655472, "dur":3215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335658688, "dur":7094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335665803, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729295335665788, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729295335665938, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335666970, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729295335669900, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.35f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1729295335669899, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1729295335670063, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335670428, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1729295335671597, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1729295335672124, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1729295335673312, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1729295335673723, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1729295335675389, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1729295335675507, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335675938, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1729295335677220, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729295335677219, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729295335677352, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation.exe" }}
+,{ "pid":12345, "tid":12, "ts":1729295335679195, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335679518, "dur":5591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335685232, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335685391, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335689921, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335690006, "dur":5726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335695836, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335695998, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335699700, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335699807, "dur":3723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335703630, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335703812, "dur":5413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335709305, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335709410, "dur":4885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335714382, "dur":2265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335716729, "dur":5425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335722230, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335722379, "dur":16479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335738944, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335739217, "dur":9850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335749190, "dur":2053, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1729295335751284, "dur":47225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/emilr/Desktop/pandemic sim/Pandemic simulation_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1729295335798807, "dur":190469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1729295335996732, "dur":2818, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 25572, "tid": 2562, "ts": 1729295411220433, "dur": 4110, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend2.traceevents"} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411228038, "dur": 77, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "buildprogram0.traceevents"} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411228781, "dur": 48, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411224661, "dur": 3367, "ph": "X", "name": "backend2.traceevents", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411228342, "dur": 438, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411228919, "dur": 1040, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 25572, "tid": 2562, "ts": 1729295411215687, "dur": 16508, "ph": "X", "name": "Write chrome-trace events", "args": {} },
